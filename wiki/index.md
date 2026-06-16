@@ -10,6 +10,7 @@ When this file exceeds ~300 lines or the wiki passes ~150 pages, shard into `wik
 
 ## Sources
 
+- [[hu-2024-routerbench]] — RouterBench: foundational multi-LLM routing benchmark (11 models × 8 tasks, 405K records) introducing the c–q plane, NDCH, Zero Router baseline, and AIQ metric (Hu et al. 2024).
 - [[chen-2023-frugalgpt]] — FrugalGPT: budget-aware LLM cascade pipeline optimization that cuts costs while maintaining quality by combining heterogeneous APIs.
 - [[advanced-architectures-llm-routing]] — Comprehensive routing survey: unifies kNN, cascade, bandit, RecSys-isomorphism, and oracle-gap perspectives on LLM routing (Moslem & Kelleher 2026).
 - [[shnitzer-2024-benchmark-routing]] — Repurposes benchmark evaluation byproducts (per-sample correctness records) to train kNN-based LLM routers; introduces three routing scores including an OOD-aware variant.
@@ -44,6 +45,7 @@ When this file exceeds ~300 lines or the wiki passes ~150 pages, shard into `wik
 - [[koya]] — Zero-finetune LLM recommender system using KPPPL for training-free model selection in low-resource languages (Owodunni 2023).
 - [[llmrouterbench]] — Large-scale benchmarking suite and unified framework for LLM routing evaluation (Li 2026).
 - [[mmr-bench]] — Comprehensive budget-aware benchmark for multimodal LLM routing (Ma 2026).
+- [[routerbench]] — Foundational multi-LLM routing benchmark: 405K+ inference records across 11 LLMs × 8 tasks; introduced the AIQ metric and Zero Router baseline (Hu et al. 2024).
 - [[routellm]] — Open-source framework for building and serving preference-trained binary LLM routers (Ong 2025).
 - [[routereval]] — Comprehensive benchmark for evaluating LLM routing across difficulty levels and query types (Huang 2025).
 - [[uniroute]] — Universal routing framework for dynamic model pools where candidate sets shift at test time (Jitkrittum 2026).

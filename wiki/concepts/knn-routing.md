@@ -2,7 +2,7 @@
 type: concept
 title: "kNN Routing"
 tags: [llm-routing, non-parametric, methodology]
-sources: [li-2025-predictive-routing]
+sources: [li-2025-predictive-routing, hu-2024-routerbench]
 created: 2026-06-06
 updated: 2026-06-06
 graph:
@@ -44,6 +44,7 @@ According to [[li-2025-predictive-routing]], kNN routing has several key advanta
 ## Constraints & Limitations
 * **Dependency on Support Set Quality**: Performance is highly dependent on having a representative and sufficiently dense support set.
 * **Embedding Quality**: The effectiveness of the similarity metric relies heavily on the quality and domain-alignment of the underlying embedding space.
+* **Fails to beat the Zero Router**: [[hu-2024-routerbench]] provides early empirical evidence that KNN routers, despite matching the best single LLM, do not significantly improve AIQ over the cost-free Zero Router (NDCH baseline) on most tasks — a finding later corroborated at larger scale by [[li-2025-predictive-routing]].
 
 ## See Also
 * [[model-routing]] — Dynamic dispatching of queries across a pool of LLMs.

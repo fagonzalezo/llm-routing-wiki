@@ -33,4 +33,5 @@ Operations:
 ## [2026-06-06] ingest | varangot-reille-2025-routing-survey — Comprehensive Survey on Routing Strategies for Resource Optimisation (Varangot-Reille et al. 2025); created concepts: pre-generation-routing, post-generation-routing, similarity-based-routing, query-complexity-routing
 ## [2026-06-06] ingest | owodunni-2023-koya — Koya: zero-finetune LLM recommender via KPPPL (Owodunni & Emezue 2023); created entity: koya, concept: perplexity-based-routing
 ## [2026-06-06] ingest | advanced-architectures-llm-routing — Survey on LLM Routing and Performance Prediction (Moslem & Kelleher 2026); created concept: oracle-gap
+## [2026-06-07] ingest | hu-2024-routerbench — RouterBench: foundational multi-LLM routing benchmark, c–q plane, AIQ metric, Zero Router baseline (Hu et al. 2024); created entities: routerbench; updated: llmrouterbench, knn-routing, oracle-gap, jitkrittum-2026-universal-routing
 

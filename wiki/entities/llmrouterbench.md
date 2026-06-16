@@ -3,7 +3,7 @@ type: entity
 title: "LLMRouterBench"
 kind: benchmark
 tags: [llm-routing, benchmark, evaluation-framework, open-source]
-sources: [li-2026-llmrouterbench]
+sources: [li-2026-llmrouterbench, hu-2024-routerbench]
 created: 2026-06-06
 updated: 2026-06-06
 ---
@@ -41,3 +41,4 @@ The benchmark codebase is available at [github.com/ynulihao/LLMRouterBench](http
 
 ## References
 * Introduced in [[li-2026-llmrouterbench]].
+* Direct successor to [[routerbench]] (Hu et al. 2024), which established the foundational c–q plane framework and AIQ metric on 11 models × 8 tasks.

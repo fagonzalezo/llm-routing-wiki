@@ -55,7 +55,7 @@ The paper establishes an excess risk bound (Proposition 2) indicating that the q
 
 ## Empirical Findings
 
-The authors evaluate UniRoute across several benchmarks, including EmbedLLM, RouterBench, SPROUT o3-mini, and Headlines:
+The authors evaluate UniRoute across several benchmarks, including EmbedLLM, [[routerbench]], SPROUT o3-mini, and Headlines:
 - **Zero-Shot Generalization**: UniRoute effectively routes queries among 30+ unseen test LLMs without any router retraining.
 - **Performance**: On EmbedLLM, UniRoute (LearnedMap) achieves a Quality-Neutral Cost (QNC) of **33.1%** (meaning it matches the best model's accuracy at 33.1% of its cost), outperforming ZeroRouter (87.5%), K-NN (45.9%), and retrained static MLPs (35.9%).
 - **Data Efficiency**: UniRoute remains effective even with small validation sets (e.g., $N_{val} \approx 400$ samples), whereas static MLPs and matrix factorization methods overfit when retrained on such small validation samples.

@@ -2,7 +2,7 @@
 type: concept
 title: "Oracle Gap"
 tags: [llm-routing, benchmark, evaluation, performance-prediction]
-sources: [advanced-architectures-llm-routing, li-2026-llmrouterbench]
+sources: [advanced-architectures-llm-routing, li-2026-llmrouterbench, hu-2024-routerbench]
 created: 2026-06-06
 updated: 2026-06-06
 ---
@@ -38,6 +38,7 @@ Empirical benchmarking shows that the choice of the underlying embedding model u
 
 ## Benchmarks That Surface This
 
+- [[routerbench]] — 405K+ records across 11 models × 8 tasks; early empirical evidence of the oracle gap and the strong Zero Router baseline.
 - [[llmrouterbench]] — 400K+ instances across 33 models; primary source for oracle gap analysis.
 - [[routereval]] — 200M+ records across 8,500+ models; confirms significant structural improvement headroom.
 
